@@ -19,9 +19,14 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors());
+app.use(cors({ origin: ["http://localhost:5173", "https://sheflows-backend.vercel.app/"], credentials: true }));
 
 // Connect to MongoDB Atlas
 connectDB();
+
+app.get("/", (req, res) => {
+  res.send("✅ SheFlows backend is running.");
+});
 
 // Routes
 app.use("/api/contact", contactRoutes);
