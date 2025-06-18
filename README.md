@@ -122,18 +122,21 @@ sheflows/
 
 
 ```
-## 💡 Future Improvements:
--Push notifications
--Daily reminders
--Calendar sync with Google Calendar
--Role-based dashboards
+### 💡 Future Improvements
+
+- ⏰ Push Notifications  
+- 🗓️ Daily Reminders  
+- 🔄 Calendar Sync with Google Calendar  
+- 👥 Role-Based Dashboards (e.g., Admin, Member)
+
 
 ---
 
-## 🙋‍♀️ Author:
--Tejasvini Kumawat
--🔗 GitHub
--📫 tejasvini.kumawat2004@gmail.com
+### 🙋‍♀️ Author
+
+**Tejasvini Kumawat**  
+🔗 [GitHub Profile](https://github.com/Tejasvini-kumawat)  
+📫 [tejasvini.kumawat2004@gmail.com](mailto:tejasvini.kumawat2004@gmail.com)
 
 
 
