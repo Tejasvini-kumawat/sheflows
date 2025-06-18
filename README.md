@@ -73,11 +73,11 @@ cd sheflows
 ### 2️⃣ Install dependencies for frontend and backend
 ```bash
 # For frontend
-cd client
+cd frontend
 npm install
 
 # For backend
-cd ../server
+cd ../backend
 npm install
 ```
 ## 🔐 Environment Variables
@@ -98,40 +98,42 @@ VITE_BACKEND_URL=https://sheflows-backend.vercel.app
 
  ### Backend:
 ```bash
-# For frontend
-cd server
+# For Backend
+cd backend
 npm run dev
 ```
  ### Frontend:
 ```bash
-# For backend
-cd client
+# For frontend
+cd frontend
 npm run dev
 ```
 
 ## 📌 Folder Structure
 ```bash
 sheflows/
-├── client/          # Frontend (React + Vite)
+├── frontend/          # Frontend (React + Vite)
 │   ├── src/
 │   └── public/
-├── server/          # Backend (Node + Express)
+├── backend/          # Backend (Node + Express)
 │   └── routes/
 │   └── controllers/
 ├── README.md
 
 
 ```
-## 💡 Future Improvements
-Push notifications
-Daily reminders
-Calendar sync with Google Calendar
-Role-based dashboards
+## 💡 Future Improvements:
+-Push notifications
+-Daily reminders
+-Calendar sync with Google Calendar
+-Role-based dashboards
 
-## 🙋‍♀️ Author
-Tejasvini Kumawat
-🔗 GitHub
-📫 tejasvini.kumawat2004@gmail.com
+---
+
+## 🙋‍♀️ Author:
+-Tejasvini Kumawat
+-🔗 GitHub
+-📫 tejasvini.kumawat2004@gmail.com
 
 
 
